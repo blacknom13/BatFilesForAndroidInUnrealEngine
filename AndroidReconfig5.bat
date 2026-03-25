@@ -6,8 +6,8 @@ echo Updating Android SDK settings...
 
 (
 echo [/Script/AndroidPlatformEditor.AndroidSDKSettings]
-echo SDKPath^=(Path^="C:/Users/bumag/AppData/Local/Android/Sdk"^)
-echo NDKPath^=(Path^="C:/Users/bumag/AppData/Local/Android/Sdk/ndk/27.2.12479018"^)
+echo SDKPath^=(Path^="C:/Users/[user]/AppData/Local/Android/Sdk"^)
+echo NDKPath^=(Path^="C:/Users/[user]/AppData/Local/Android/Sdk/ndk/27.2.12479018"^)
 echo JavaPath^=(Path^="C:/Program Files/Android/Android Studio/jbr"^)
 echo SDKAPILevel=latest
 echo NDKAPILevel=android-27
